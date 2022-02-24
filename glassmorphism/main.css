@@ -1,0 +1,301 @@
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    background: url(assets/img/Frame2.png);
+    background-size: cover ;
+  }
+
+/* Frame*/
+.frame{
+  margin:20px;
+  /* height: 650px; */
+  background: radial-gradient(98.75% 283.58% at 1.25% 3.74%, rgba(255, 251, 251, 0.185) 0%, rgba(249, 244, 244, 0.04) 100%);
+  border: 10px solid rgba(255, 255, 255, 0.42);
+  border-radius: 34px;
+  backdrop-filter: blur(5px);
+}
+
+/* Navbar */
+
+.header {
+  margin:20px;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+.header .logo span {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin-top: 3px;
+  
+}
+.header .logo {
+  line-height: 0;
+}
+
+#s1{
+  color:#1A3AE4;
+}
+
+/* Navbar */
+
+.navbar ul {
+  margin: -5px;
+  margin-left: -12px;
+  padding: 10px 5px 12px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px 0px 0px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #013289;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+ 
+/* Search */
+.field-container{
+  padding: 5px;
+  width: 250px;
+  height: 45px;
+  background: radial-gradient(98.75% 283.58% at 1.25% 3.74%, rgba(255, 251, 251, 0.185) 0%, rgba(249, 244, 244, 0.04) 100%);
+  border: 2px solid rgba(255, 255, 255, 0.42);
+  box-sizing: border-box;
+  backdrop-filter: blur(22px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 34px;
+}
+.field-container img{
+  margin: 4px;
+}
+.field{
+  margin: 4px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #7A7A7A;
+}
+
+.line{
+  height: 4px;
+  margin: 0px 40px 0px 40px;
+  background: rgba(255, 253, 253, 0.51);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/* container-nav */
+.nav-contain{
+  position: absolute;
+  margin-right:20px;
+  margin-top: 10px;
+  width: 70px;
+  height: 232px;
+  left: -24px;
+  background: radial-gradient(98.75% 283.58% at 1.25% 3.74%, rgba(255, 251, 251, 0.296) 0%, rgba(249, 244, 244, 0.064) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  box-sizing: border-box;
+  backdrop-filter: blur(22px);
+  border-radius: 34px;
+}
+
+.nav-contain ul{
+  margin: 10px 0px;
+  padding:10px 5px 10px 10px;
+  list-style: none;
+}
+
+.nav-contain ul li{
+  padding: 5px;
+}
+
+svg{
+  width:37px;
+  height: 40px;
+}
+/* container */
+.container{
+  display: flex;
+}
+/* card-styles */
+.card-container{
+  margin: 10px;
+  margin-left: 35px;
+  width: 552px;
+  height: 237px;
+  background: radial-gradient(98.75% 283.58% at 1.25% 3.74%, rgba(255, 251, 251, 0.185) 0%, rgba(249, 244, 244, 0.04) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  box-sizing: border-box;
+  backdrop-filter: blur(12px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 34px;
+}
+.card-block{
+  margin: 40px 0px 0px;
+}
+.card-block h3{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.235em;
+  color: #615F5F;
+}
+.card-block p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.015em;
+  color: #615F5F;
+}
+.card-block p:nth-child(3){
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px; 
+  line-height: 18px;
+  color: #615F5F;
+}
+
+.card-block .btn{
+  background: #3672E9;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  box-shadow: 0px 10px 50px #3672E9;
+  border-radius: 13px;
+  width: 138px;
+}
+ .card-play{
+   margin-left: 300px;
+ }
+.card1 , .card2{
+  margin: 5px;
+  width: 360px;
+  height: 135px;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.card-block .psmal{
+  margin:2px;
+  width: 166px;
+  height: 49px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9.51px;
+  line-height: 14px;
+  color: #474747; 
+}
+
+.list{
+  margin:10px 20px;
+}
+
+.list ul{
+  padding: 10px 0px 12px;
+  list-style: none;
+  align-items: center;
+}
+.list h3{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #615F5F;
+}
+.list li{
+  width: 276.01px;
+  padding:10px 0px;
+  margin-right: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #615F5F;
+
+}
+li i {
+  margin-right: 20px;
+}
+.card3{
+  margin: 10px 15px;
+  padding: 10px;
+  width: 353.23px;
+  height: 240px;
+
+  background: radial-gradient(100% 249.45% at 0% 2.78%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(23px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 20px;
+}
+
+.mini-card h3{
+  margin:10px;
+  width: 212.88px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #615F5F;
+}
+
+.mini-card p{
+  margin:10px;
+  width: 99.02px;
+  height: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  color: #615F5F;
+}
+.dn{
+  margin: 5px;
+  display: flex;
+}
+
+.dn p{
+  margin:5px;
+  height: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  color: #615F5F;
+}
+.dn i{
+  position: relative;
+  left: 140px;
+}
