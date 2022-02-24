@@ -1,2 +1,2 @@
-# webDesign_Collection
+# webdesign Collection
 A webdesign collection
